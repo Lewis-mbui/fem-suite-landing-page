@@ -1,3 +1,24 @@
+:root {
+  --clr-primary-200: hsl(218, 20%, 38%);
+  --clr-primary-400: hsl(219, 43%, 16%);
+
+  --clr-secondary-400: hsl(264, 100%, 69%);
+  --clr-secondary-600: hsl(292, 76%, 54%);
+
+  --clr-accent-400: hsl(31, 100%, 65%);
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-200: hsl(30, 33%, 93%);
+  --clr-neutral-300: hsl(30, 29%, 97%);
+
+  --grad-btn: linear-gradient(
+    135deg,
+    #a060ff 0%,
+    #cb30e3 49.21%,
+    #ffa84e 100%
+  );
+}
+
 /* RESET STYLES */
 /* Box sizing rules */
 *,
