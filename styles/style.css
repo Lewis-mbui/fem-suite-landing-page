@@ -35,6 +35,46 @@
     #cb30e3 49.21%,
     #ffa84e 100%
   );
+
+  --fw-normal: 400;
+  --fw-bold: 700;
+
+  --fs-100: 0.75rem;
+  --fs-150: 0.9375rem;
+  --fs-200: 1rem;
+  --fs-300: 1.125rem;
+  --fs-400: 1.25rem;
+  --fs-500: 2.5rem;
+  --fs-600: 2.75rem;
+  --fs-700: 3rem;
+  --fs-800: 3.5rem;
+  --fs-900: 4.5rem;
+
+  --fs-primary-heading: var(--fs-600);
+  --fs-secondary-heading: var(--fs-500);
+  --fs-hero-text: var(--fs-200);
+  --fs-btn-small: var(--fs-100);
+  --fs-btn-large: var(--fs-200);
+  --fs-testimonial-text: var(--fs-300);
+  --fs-footer-text: var(--fs-150);
+}
+
+@media (min-width: 64em) {
+  :root {
+    --fs-primary-heading: var(--fs-800);
+    --fs-btn-small: var(--fs-200);
+    --fs-btn-large: var(--fs-300);
+  }
+}
+
+
+@media (min-width: 64em) {
+  :root {
+    --fs-primary-heading: var(--fs-900);
+    --fs-hero-text: var(--fs-300);
+    --fs-secondary-heading: var(--fs-700);
+    --fs-testimonial-text: var(--fs-400);
+  }
 }
 
 /* RESET STYLES */
