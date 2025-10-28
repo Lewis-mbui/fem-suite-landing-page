@@ -149,4 +149,19 @@ svg {
 /* TYPOGRAPHY */
 body {
   font-family: 'Epilogue', Arial, Helvetica, sans-serif;
+  font-size: var(--fs-200);
+}
+
+h1 {
+  font-size: var(--fs-primary-heading);
+  color: var(--clr-primary-400);
+  line-height: 1.08;
+}
+
+h2 {
+  font-size: var(--fs-secondary-heading);
+}
+
+p {
+  line-height: 1.6;
 }
