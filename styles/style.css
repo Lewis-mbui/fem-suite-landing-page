@@ -160,8 +160,58 @@ h1 {
 
 h2 {
   font-size: var(--fs-secondary-heading);
+  line-height: 1.2;
 }
 
 p {
   line-height: 1.6;
 }
+
+/* BUTTONS */
+.btn {
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: .4rem;
+  display: inline-flex;
+  margin-top: .3rem;
+  text-align: center;
+  transition-property: background, background-color, color;
+  transition-duration: .2s;
+}
+
+.btn--small {
+  font-size: var(--fs-btn-small);
+  padding: .9rem 1.1rem;
+}
+
+.btn--large {
+  font-size: var(--fs-btn-large);
+  padding: 1rem 1.6rem;
+}
+
+.btn--inverted {
+  color: var(--clr-primary-400);
+  background: var(--clr-neutral-100);
+  border: 1px solid var(--clr-primary-400);
+}
+
+.btn--inverted:hover,
+.btn--inverted:focus {
+  outline: none;    
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+
+.btn--primary {
+  background: linear-gradient(var(--clr-primary-400), var(--clr-primary-400));
+  border: none;
+  color: var(--clr-neutral-100);
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+  background: var(--grad-btn);
+  outline: none;
+}
+
