@@ -59,7 +59,7 @@
   --fs-footer-text: var(--fs-150);
 }
 
-@media (min-width: 64em) {
+@media (min-width: 48em) {
   :root {
     --fs-primary-heading: var(--fs-800);
     --fs-btn-small: var(--fs-200);
@@ -213,5 +213,20 @@ p {
 .btn--primary:focus {
   background: var(--grad-btn);
   outline: none;
+}
+
+/* HEADER */
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* UTILITIES */
+.container {
+  padding-inline: 1rem;
+  max-width: 68.75em; /*1100px*/
+  margin-inline: auto;
+  outline: 2px solid red;
 }
 
