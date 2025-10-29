@@ -345,6 +345,7 @@ p {
 /* TESTIMONIAL */
 .testimonial__container {
   padding-top: 16rem;
+  padding: 0;
 }
 
 .quote {
